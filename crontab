@@ -1,3 +1,4 @@
-* * * * * curl http://sample-nodejs:8080 >/proc/1/fd/1 2>/proc/1/fd/2
+0 0 * * * curl -H GET "https://growth-bar-seo-2-pq8jk.ondigitalocean.app/master.php?action=GSC.setCronJobs"
+*/3 * * * * curl -H GET "https://growth-bar-seo-2-pq8jk.ondigitalocean.app/master.php?action=GSC.addUpdatePageKeywords"
 
 # An empty line is required at the end of this file for a valid cron file.
