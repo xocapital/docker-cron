@@ -1,4 +1,5 @@
-0 0 * * * curl -H GET "https://growth-bar-seo-2-pq8jk.ondigitalocean.app/master.php?action=GSC.setCronJobs" -k
-*/2 * * * * curl -H GET "https://growth-bar-seo-2-pq8jk.ondigitalocean.app/master.php?action=GSC.addUpdatePageKeywords" -k
+0 0 * * * curl -H GET "https://test.growthbarseo.com/master.php?action=GSC.setCronJobs" -k
+*/2 * * * * curl -H GET "https://test.growthbarseo.com/master.php?action=GSC.addUpdatePageKeywords" -k
+*/3 * * * * curl -H GET "https://stream-test.growthbarseo.com/master.php?action=btav.convertVideo" -k
 
 # An empty line is required at the end of this file for a valid cron file.
